@@ -1,0 +1,84 @@
+.destination-item {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+.browser-title {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 500;
+  margin: 0px;
+}
+.history-content {
+  display: flex;
+}
+.browser-time {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+}
+.browser-start {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .browser-start {
+    flex-direction: row;
+  }
+}
+.browser-end {
+  align-self: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.destination-image {
+  width: 30px;
+  height: 30px;
+  margin: 0px 20px 0px 0px;
+}
+@media screen and (min-width: 768px) {
+  .destination-image {
+    margin: 0px 20px 0px 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .destination-item {
+    margin-right: 15px;
+    margin-left: 65px;
+  }
+}
+.browser-middle {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .browser-middle {
+    flex-direction: row;
+  }
+}
+.name {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 16px;
+    margin: 0px 0px 0px 15px;
+  }
+}
